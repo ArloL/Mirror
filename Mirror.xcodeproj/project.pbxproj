@@ -13,7 +13,31 @@
 		27FFE6F8162F439800C6D91A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 27FFE6F6162F439800C6D91A /* Credits.rtf */; };
 		27FFE6FB162F439800C6D91A /* ASEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FFE6FA162F439800C6D91A /* ASEAppDelegate.m */; };
 		27FFE6FE162F439800C6D91A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FFE6FC162F439800C6D91A /* MainMenu.xib */; };
+		27FFE70C162F442600C6D91A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FFE708162F442600C6D91A /* CocoaAsyncSocket.framework */; };
+		27FFE70D162F442600C6D91A /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FFE709162F442600C6D91A /* CocoaHTTPServer.framework */; };
+		27FFE70E162F442600C6D91A /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FFE70A162F442600C6D91A /* CocoaLumberjack.framework */; };
+		27FFE70F162F442600C6D91A /* RoutingHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FFE70B162F442600C6D91A /* RoutingHTTPServer.framework */; };
+		27FFE712162F443400C6D91A /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27FFE708162F442600C6D91A /* CocoaAsyncSocket.framework */; };
+		27FFE713162F443400C6D91A /* CocoaHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27FFE709162F442600C6D91A /* CocoaHTTPServer.framework */; };
+		27FFE714162F443400C6D91A /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27FFE70A162F442600C6D91A /* CocoaLumberjack.framework */; };
+		27FFE715162F443400C6D91A /* RoutingHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27FFE70B162F442600C6D91A /* RoutingHTTPServer.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27FFE711162F442E00C6D91A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27FFE712162F443400C6D91A /* CocoaAsyncSocket.framework in CopyFiles */,
+				27FFE713162F443400C6D91A /* CocoaHTTPServer.framework in CopyFiles */,
+				27FFE714162F443400C6D91A /* CocoaLumberjack.framework in CopyFiles */,
+				27FFE715162F443400C6D91A /* RoutingHTTPServer.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		27FFE6E3162F439800C6D91A /* Mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +53,10 @@
 		27FFE6F9162F439800C6D91A /* ASEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEAppDelegate.h; sourceTree = "<group>"; };
 		27FFE6FA162F439800C6D91A /* ASEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEAppDelegate.m; sourceTree = "<group>"; };
 		27FFE6FD162F439800C6D91A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		27FFE708162F442600C6D91A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Frameworks/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		27FFE709162F442600C6D91A /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHTTPServer.framework; path = Frameworks/CocoaHTTPServer.framework; sourceTree = "<group>"; };
+		27FFE70A162F442600C6D91A /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Frameworks/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		27FFE70B162F442600C6D91A /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoutingHTTPServer.framework; path = Frameworks/RoutingHTTPServer.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				27FFE6E8162F439800C6D91A /* Cocoa.framework in Frameworks */,
+				27FFE70C162F442600C6D91A /* CocoaAsyncSocket.framework in Frameworks */,
+				27FFE70D162F442600C6D91A /* CocoaHTTPServer.framework in Frameworks */,
+				27FFE70E162F442600C6D91A /* CocoaLumberjack.framework in Frameworks */,
+				27FFE70F162F442600C6D91A /* RoutingHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,10 @@
 		27FFE6E6162F439800C6D91A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27FFE708162F442600C6D91A /* CocoaAsyncSocket.framework */,
+				27FFE709162F442600C6D91A /* CocoaHTTPServer.framework */,
+				27FFE70A162F442600C6D91A /* CocoaLumberjack.framework */,
+				27FFE70B162F442600C6D91A /* RoutingHTTPServer.framework */,
 				27FFE6E7162F439800C6D91A /* Cocoa.framework */,
 				27FFE6E9162F439800C6D91A /* Other Frameworks */,
 			);
@@ -112,6 +148,7 @@
 				27FFE6DF162F439800C6D91A /* Sources */,
 				27FFE6E0162F439800C6D91A /* Frameworks */,
 				27FFE6E1162F439800C6D91A /* Resources */,
+				27FFE711162F442E00C6D91A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -255,6 +292,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mirror/Mirror-Prefix.pch";
 				INFOPLIST_FILE = "Mirror/Mirror-Info.plist";
@@ -267,6 +308,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mirror/Mirror-Prefix.pch";
 				INFOPLIST_FILE = "Mirror/Mirror-Info.plist";
@@ -294,6 +339,7 @@
 				27FFE703162F439800C6D91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
